@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/5d5affb818.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <a href=""><img src="img/logo plant.svg" alt=""></a>
+            <form class="form1" name="form1">
+                <input class="header_searchbar" type="search" name="search" placeholder="What are you looking for?">
+                <button type="submit" class="search_button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="buttons_div">
+                <a href="">
+                    <button class="log_in">log in</button>
+                </a>
+                <a href="">
+                    <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                </a>
+            </div>
+        </header>
+        <!-- section1 -->
+        <section class="section1">
+            <nav class="section1_nav">
+                <ul class="section1_ul">
+                    <a href="">
+                        <li class="section1_li">HOME</li>
+                    </a>
+                    <a href="">
+                        <li class="section1_li">ABOUT</li>
+                    </a>
+                    <a href="">
+                        <li class="section1_li">SERVICES</li>
+                    </a>
+                    <a href="">
+                        <li class="section1_li">PLANT CARE</li>
+                    </a>
+                    <a href="">
+                        <li class="section1_li active">CONTACT US</li>
+                    </a>
+                </ul>
+            </nav>
+
+        </section>
+        <!-- section2 -->
+        <section class="section2">
+            <article class="section_article">
+                <h2 class="article_header">CONTACT US</h2>
+                <form class="section_form" action="">
+                    <div class="form1_div">
+                        <input class="startup_form" type="text" name="name" placeholder="name">
+                        <input class="startup_form" type="email" name="email" placeholder="email">
+                    </div>
+                    <!-- seclect -->
+                    <label class="form_question" for="question">Is your question about an existing order?</label>
+                    <select class="form_answer" name="answer" id="question">
+                        <option value=""></option>
+                        <option value="">yes</option>
+                        <option value="">no</option>
+                    </select>
+                    <!-- radio -->
+
+                    <label class="form_question" for="question">I have a delivery question about my order</label>
+                    <div class="radio_div">
+                        <div>
+                            <input class="form_radio" type="radio" id="radio1">
+                            <label for="radio1">I did not receive my order</label>
+                        </div>
+                        <div>
+                            <input class="form_radio" type="radio" id="radio2">
+                            <label for="radio2">My order is incorrect or arrived damaged</label>
+                        </div>
+                        <div>
+                            <input class="form_radio" type="radio" id="radio3">
+                            <label for="radio3">Cancel my order</label>
+                        </div>
+                        <div>
+                            <input class="form_radio" type="radio" id="radio4">
+                            <label for="radio4">Change my shipping address</label>
+                        </div>
+                        <!-- textarea -->
+                        <label class="form_question" for="">Please provide more details below.</label>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                        <!-- checkbox -->
+                        <div class="checkbox_div">
+                            <input type="checkbox" id="checkbox" name="check" value="receive">
+                            <label class="checkbox_txt" for="checlbox">I want to receive the newsletter </label>
+                        </div>
+                        <button class="article_button">SEND</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="footer_div1">
+                <h2 class="footer_title">Follow us</h2>
+                <div class="footer_socials">
+                    <a href="https://www.facebook.com/"><img src="img/entypo-social_facebook.svg" alt=""></a>
+                    <a href="https://www.instagram.com/"><img src="img/typcn_social-instagram.svg" alt=""></a>
+                    <a href="https://twitter.com/?logout=1700385315252"><img src="img/fa-brands_twitter-square.svg"
+                            alt=""></a>
+                    <a href="https://www.pinterest.com/"><img src="img/fa_pinterest-square.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer_div2">
+                <h2 class="footer_title">Contact us</h2>
+                <ul>
+                    <a href="">
+                        <li class="adress_link"><img src="img/mdi_address-marker.svg" alt="">New York, 94 Brodway</li>
+                    </a>
+                    <a href="">
+                        <li class="adress_link"><img src="img/solar_phone-bold.svg" alt="">+555 67 88 00</li>
+                    </a>
+                    <a href="">
+                        <li class="adress_link"><img src="img/eva_email-fill.svg" alt="">plant@gmail.com</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h2 class="footer_title1">Copyright © 2023 House Plant Shop.</h2>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
